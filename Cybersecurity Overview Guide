@@ -1,0 +1,205 @@
+ "Overview Guide for Cybersecurity"
+
+1. Basics
+   ├── Networking 🌐
+   │   ├── OSI Model 
+   │   │   ├── Layers 1-7, Functions
+   │   │   ├── Encapsulation/Decapsulation
+   │   ├── TCP/IP Suite 
+   │   │   ├── IPv4/IPv6, TCP/UDP
+   │   │   ├── Protocol Ports, ICMP, ARP
+   │   ├── Subnetting 
+   │   │   ├── CIDR, VLSM, Calculations
+   │   │   ├── Supernetting
+   │   ├── NAT/PAT 
+   │   │   ├── Types, Mechanisms
+   │   │   ├── NAT Traversal
+   │   ├── DNS 
+   │   │   ├── Resolution, DNSSEC
+   │   │   ├── Spoofing, Tunneling
+   │   ├── VPNs 
+   │   │   ├── IPSec, SSL/TLS
+   │   │   ├── Split Tunneling
+   │   ├── Firewalls 
+   │   │   ├── Stateful vs Stateless
+   │   │   ├── NGFW, Rule Creation
+   │   ├── Load Balancers 
+   │       ├── Layer 4/7, Health Checks
+   │       ├── Algorithms, Session Persistence
+
+   ├── Operating Systems 💻
+   │   ├── Windows 
+   │   │   ├── Registry, AD, GPO
+   │   │   ├── Event Logs
+   │   ├── Linux 🐧
+   │   │   ├── Filesystem, Permissions
+   │   │   ├── Systemd, Log Management
+   │   ├── MacOS 🍏
+   │   │   ├── SIP, Keychain Access
+   │   │   ├── Daemons, Gatekeeper
+   │   ├── Kernel Exploits 🔓
+   │   │   ├── Privilege Escalation, CVE
+   │   │   ├── Debugging, Exploit Dev
+   │   ├── Shell Scripting 🖥️
+   │       ├── Bash, PowerShell
+   │       ├── Automation, Scheduling
+
+   ├── Programming & Scripting 💡
+   │   ├── Python 🐍
+   │   │   ├── Networking, Automation
+   │   │   ├── API, Pentesting
+   │   │   ├── Data Analysis
+   │   ├── Bash 
+   │   │   ├── CLI Fu, Text Manipulation
+   │   │   ├── Network Config, Process Management
+   │   ├── PowerShell 
+   │   │   ├── Cmdlets, Remoting
+   │   │   ├── Execution Policies, Admin Tasks
+   │   ├── C/C++ 💾
+   │   │   ├── Memory Management, Buffer Overflows
+   │   │   ├── Pointer Manipulation, Exploits
+   │   ├── Assembly Language 🛠️
+   │       ├── x86/x64, Shellcode Dev
+   │       ├── Debugging, Reverse Engineering
+   │   ├── Reverse Engineering 🔍
+   │       ├── Disassembly, Decompilation
+   │       ├── Binary Patching, Malware Analysis
+
+2. Intermediate Security Skills 🔍
+   ├── Threat Modeling 
+   │   ├── STRIDE: Spoofing, Tampering, etc.
+   │   ├── DREAD: Damage, Reproducibility, etc.
+   │   ├── MITRE ATT&CK: Tactics, Techniques
+
+   ├── Penetration Testing 🕵️‍♂️
+   │   ├── Reconnaissance: OSINT, DNS Recon
+   │   ├── Scanning: Nmap, Nessus
+   │   │   ├── Port Scanning, OS Detection
+   │   │   ├── Vulnerability Prioritization
+   │   ├── Exploitation: Metasploit, Custom Payloads
+   │   │   ├── Shellcode, ROP
+   │   │   ├── Fuzzing, Mitigation Bypass
+   │   ├── Post-Exploitation: Privilege Escalation
+   │   │   ├── Persistence, Data Exfiltration
+   │   ├── Reporting: Documentation, Recommendations
+
+3. Advanced Topics 🚀
+   ├── Offensive Security 
+   │   ├── Exploit Development
+   │   ├── Advanced Persistent Threats (APTs)
+   │   ├── Red Team Operations
+
+   ├── Security Operations Center (SOC) 🔍
+   │   ├── Monitoring, Incident Response
+   │   ├── SIEM Configuration
+   │   ├── Threat Intelligence
+
+   ├── Digital Forensics 🕵️‍♀️
+   │   ├── Data Acquisition
+   │   ├── Evidence Preservation
+   │   ├── Analysis & Reporting
+
+   ├── Compliance & Governance 📜
+       ├── GDPR, HIPAA
+       ├── Risk Management
+       ├── Policy Development
+
+4. Emerging Technologies & Trends 🚀
+   ├── Cloud Security ☁️
+   │   ├── Cloud Service Models (IaaS, PaaS, SaaS)
+   │   ├── Cloud Security Posture Management (CSPM)
+   │   ├── Cloud Access Security Brokers (CASB)
+   │   ├── Data Encryption in the Cloud
+   │   ├── Identity and Access Management (IAM)
+   │   ├── Cloud Security Best Practices
+
+   ├── Zero Trust Architecture 🔐
+   │   ├── Principles of Zero Trust
+   │   ├── Identity and Device Authentication
+   │   ├── Network Segmentation
+   │   ├── Microsegmentation
+   │   ├── Policy Enforcement
+
+   ├── Internet of Things (IoT) 🌐
+   │   ├── IoT Security Challenges
+   │   ├── Device Authentication & Encryption
+   │   ├── IoT Network Segmentation
+   │   ├── Vulnerability Management
+   │   ├── IoT Data Protection
+
+├── Blockchain & Web3 🧩
+   │   ├── Blockchain Security Fundamentals
+   │   │   ├── Consensus Mechanisms
+   │   │   ├── Smart Contract Security
+   │   │   ├── Cryptographic Techniques
+   │   ├── Ethereum & EVM
+   │   │   ├── Gas Management
+   │   │   ├── Ethereum 2.0
+   │   │   ├── Layer 2 Solutions
+   │   ├── Decentralized Applications (DApps)
+   │   │   ├── Development & Security
+   │   │   ├── Smart Contract Auditing
+   │   │   ├── Decentralized Finance (DeFi) Risks
+
+   ├── Artificial Intelligence & Machine Learning 🤖
+   │   ├── AI/ML Security Risks
+   │   ├── Adversarial Attacks
+   │   ├── Secure AI Models
+   │   ├── Data Privacy in AI
+   │   ├── AI in Threat Detection
+
+   ├── Advanced Persistent Threats (APTs) 🕵️‍♂️
+   │   ├── APT Lifecycle
+   │   ├── Tactics, Techniques, and Procedures (TTPs)
+   │   ├── Threat Intelligence Integration
+   │   ├── Incident Handling
+   │   ├── Mitigation Strategies
+
+5. Advanced Penetration Testing 🧩
+   ├── Advanced Exploitation Techniques 🚀
+   │   ├── Remote Code Execution
+   │   ├── Privilege Escalation Exploits
+   │   ├── Post-Exploitation Techniques
+   │   ├── Bypassing Security Controls
+
+   ├── Social Engineering 🧠
+   │   ├── Phishing, Spear Phishing
+   │   ├── Pretexting, Impersonation
+   │   ├── Physical Security Testing
+   │   ├── Psychological Manipulation
+
+   ├── Red Team Operations 🔴
+   │   ├── Red Team vs Blue Team
+   │   ├── Advanced Tactics
+   │   ├── Adversary Simulation
+   │   ├── Tools & Frameworks
+
+   ├── Blue Team Defense 🛡️
+   │   ├── Advanced Detection Techniques
+   │   ├── Threat Hunting
+   │   ├── Incident Response Automation
+   │   ├── Defensive Strategies
+
+   ├── Exploit Development 🧩
+   │   ├── Writing and Debugging Exploits
+   │   ├── Memory Corruption Bugs
+   │   ├── Shellcode Techniques
+   │   ├── Bypassing Protections
+
+   ├── Advanced Forensics 🕵️‍♀️
+   │   ├── Advanced Data Recovery
+   │   ├── Cross-Platform Forensics
+   │   ├── Mobile Device Forensics
+   │   ├── Cloud Forensics
+
+   ├── Threat Intelligence Analysis 📈
+   │   ├── Data Collection Methods
+   │   ├── Threat Actor Profiling
+   │   ├── Incident Correlation
+   │   ├── Intelligence Reporting
+
+   ├── Incident Management 🚨
+   │   ├── Incident Response Planning
+   │   ├── Coordination & Communication
+   │   ├── Post-Incident Review
+   │   ├── Recovery & Lessons Learned
